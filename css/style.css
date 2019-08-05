@@ -6,6 +6,7 @@
 
 body {
     text-align: center;
+    background-color: antiquewhite;
 }
 
 .home {
@@ -103,4 +104,15 @@ h2::after {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+}
+
+footer {
+    padding: 15px 10px;
+    position: relative;
+    width: 100%;
+    height: 78px;
+    background: green;
+    flex-wrap: nowrap;
+    position: relative;
+    text-align: center;
 }

@@ -139,3 +139,20 @@ function myArr(element) {
     createabtn.innerHTML = 'Comprar'
     cardBody.appendChild(createabtn)
 }
+
+var fakePromise = Promise.resolve(data)
+var repo = document.querySelector('#carrito')
+var compras = document.querySelector('.precios')
+
+function precios(valor) {
+    total += valor.price;
+    compras.innerHTML = `sub total: ${total}`;
+}
+
+function product1() {
+    fakePromise
+        .then((hola) => {
+            precios(hola[0]);
+            repo.innerHTML += `<p class="card-text">${hola[0].name}, precio: ${hola[0].price}  talla: ${hola[0].size}<p>`;
+        })
+}
