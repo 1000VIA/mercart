@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     text-align: center;
 }
 
@@ -26,24 +26,16 @@ body{
 }
 
 #home p {
-
     margin: 15px;
-   display: inline-block;
+    display: inline-block;
     margin-right: 50px;
     font-size: 25px;
     font-family: 'News Cycle', sans-serif;
     cursor: pointer;
     color: white;
-   
-
-
 }
 
-
-
-
-#home p:hover{
-  
+#home p:hover {
     color: gray;
 }
 
@@ -52,54 +44,51 @@ body{
     padding: 20px;
 }
 
-.co1{
+.co1 {
     position: relative;
-    
-   
-}
- h2{
-   
-  display:inline-block;
-  position: relative;
-  margin-bottom: 40px;
 }
 
- h2::after, h2::before{
+h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+}
 
+h2::after,
+h2::before {
     content: '';
     position: absolute;
     width: 600px;
     height: 3px;
     background-color: black;
     top: 0.6em;
-
 }
 
-h2::before{
+h2::before {
     left: -600px;
-
 }
 
-h2::after{
+h2::after {
     right: -600px;
 }
 
-.Verduras {
+
+/* .card-group {
     height: 100%;
     display: flex;
     justify-content: center;
-    justify-content: space-around; 
-    
+    justify-content: space-around;
     font-style: italic;
-}
+} */
 
-
-.co2{
+.co2 {
     position: relative;
     margin-bottom: 10px;
-   
 }
 
+.card {
+    background-color: cornsilk;
+}
 
 .Frutas {
     height: 100%;
